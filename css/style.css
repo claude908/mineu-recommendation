@@ -1,0 +1,132 @@
+* {
+    align-items: center;
+    text-align: center;
+}
+.container {
+    background-color:rgba(193, 193, 193, 0.279);
+    margin-top: 15px;
+}
+
+.div {
+    display: block;
+}
+
+.first_row {
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 70.4px;
+}
+
+.first_text {
+    margin-bottom: 16px;
+    text-size-adjust: 100%;
+    font-family: 'Anton', sans-serif;
+}
+
+.above-one {
+    background-color:rgba(127, 255, 212, 0.162);
+    height:90%;
+    justify-content: center;
+    flex-direction: column;
+    display: block;
+    max-height: 360px;
+    max-width: 500px !/* important */;
+    border-style: dotted;
+    border-color: rgb(70, 203, 130);
+}
+
+.above-two {
+    background-color: rgba(255, 127, 80, 0.142);
+    border-style: dotted;
+    border-color: rgb(40, 141, 40);
+}
+
+.second_row {
+    height: 333px;
+    background-color:rgba(105, 70, 181, 0.163);
+    border-style: dotted;
+}
+
+.third_row {
+    border-style: dotted;
+    border-color: crimson;
+    padding-top: 20px;
+}
+
+.korea {
+    width: fit-content;
+    block-size: fit-content;
+    object-fit: cover;
+    max-width: 500px;
+    max-height: 360px;
+/*     vertical-align: middle;
+    display: flex;
+ */}
+
+.second_first_split-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.second_second_split-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.below {
+    margin: 20px;
+}
+.below-one {
+    background-color: rgba(134, 230, 134, 0.205);
+    text-align: left !important;
+    border-style: dotted;
+    border-color: rgb(231, 120, 142);
+}
+.below-two {
+    background-color: rgba(188, 230, 134, 0.231);
+    flex-direction: row;
+    width: 380px;
+    justify-content: flex-start;
+    border-style: dotted;
+    border-color: rgb(181, 95, 124);
+}
+
+.leftText{
+    text-align: left !important;
+}
+
+.font-weight-bold{
+    font-weight: bold;
+}
+
+.pricing-promo, .recolist, .font-weight-bold {
+    font-size: 24px;
+    /* line-height: 24px; */
+    text-size-adjust: 100%;
+    /* font-family: "Platform Medium", sans-serif !important; */
+}
+
+.purchaseBtn {
+    height: 44px;
+    width: 340px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+
+}
+
+.product {
+    box-sizing: border-box;
+    object-fit: cover ;
+    block-size: fit-content;
+    position: relative;
+    display: contents ;
+}
+
+/* .first_text {
+    text-align: center;
+} */
